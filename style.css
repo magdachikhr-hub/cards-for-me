@@ -113,4 +113,56 @@ main {
       left: 560px;
     }
   }
+
+  div.rainbow {
+    background: linear-gradient(
+      180deg,
+      rgba(7, 59, 76, 1) 17%,
+      rgba(17, 138, 178, 1) 36%,
+      rgba(6, 214, 160, 1) 53%,
+      rgba(255, 209, 102, 1) 74%,
+      rgba(247, 140, 107, 1) 88%,
+      rgba(239, 71, 111, 1) 100%
+    );
+    height: 700px;
+    width: 930px;
+    border-radius: 15px;
+    position: relative;
+
+    div.card {
+      width: 250px;
+      height: 300px;
+      border-radius: 10px;
+      position: absolute;
+      top: 220px;
+    }
+
+    div.one {
+      background-color: #ef476f;
+      left: 60px;
+    }
+
+    div.two {
+      background-color: #f78c6b;
+      left: 160px;
+    }
+    div.three {
+      background-color: #ffd166;
+      left: 260px;
+    }
+
+    div.four {
+      background-color: #06d6a0;
+      left: 360px;
+    }
+    div.five {
+      background-color: #118ab2;
+      left: 460px;
+    }
+
+    div.six {
+      background-color: #073b4c;
+      left: 560px;
+    }
+  }
 }
