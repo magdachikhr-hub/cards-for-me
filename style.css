@@ -9,43 +9,53 @@ body {
 }
 
 main {
-  background-color: #213a57;
   min-height: 100vh;
-  position: relative;
+  background-color: rgb(155, 185, 211);
+  div.blue {
+    background: linear-gradient(
+      90deg,
+      rgba(128, 237, 153, 1) 9%,
+      rgba(10, 209, 200, 1) 46%,
+      rgba(33, 58, 87, 1) 75%
+    );
+    height: 700px;
+    width: 900px;
+    position: relative;
 
-  div.card {
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-    position: absolute;
-    top: 170px;
-  }
+    div.card {
+      width: 250px;
+      height: 300px;
+      border-radius: 10px;
+      position: absolute;
+      top: 170px;
+    }
 
-  div.one {
-    background-color: aqua;
-    left: 340px;
-  }
+    div.one {
+      background-color: #213a57;
+      left: 340px;
+    }
 
-  div.two {
-    background-color: #45dfb1;
-    left: 60px;
-  }
-  div.three {
-    background-color: #0ad1c8;
-    left: 110px;
-  }
+    div.two {
+      background-color: #0b6477;
+      left: 440px;
+    }
+    div.three {
+      background-color: #14919b;
+      left: 540px;
+    }
 
-  div.four {
-    background-color: #14919b;
-    left: 180px;
-  }
-  div.five {
-    background-color: #80ed99;
-    left: 220px;
-  }
+    div.four {
+      background-color: #0ad1c8;
+      left: 640px;
+    }
+    div.five {
+      background-color: #45dfb1;
+      left: 740px;
+    }
 
-  div.six {
-    background-color: #253b2a;
-    left: 290px;
+    div.six {
+      background-color: #80ed99;
+      left: 840px;
+    }
   }
 }
